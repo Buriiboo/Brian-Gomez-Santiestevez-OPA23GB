@@ -1,0 +1,10 @@
+23, 41, Pikachu
+20, 33, Pichu
+22, 37, Pikachu
+20, 27, Pichu
+27, 37, Pikachu
+23, 34, Pichu
+25, 38, Pikachu
+23, 37, Pikachu
+17, 29, Pichu
+17, 27, Pichu
