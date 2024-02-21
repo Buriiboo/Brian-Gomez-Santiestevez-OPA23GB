@@ -1,8 +1,3 @@
-21, 26, Pichu
-15, 31, Pichu
-17, 33, Pichu
-17, 29, Pichu
-16, 26, Pichu
 17, 29, Pichu
 16, 35, Pichu
 17, 30, Pichu
