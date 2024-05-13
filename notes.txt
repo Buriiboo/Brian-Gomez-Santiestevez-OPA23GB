@@ -1,0 +1,60 @@
+Hyperparametertuning-> xxxx-stop
+
+
+Binary cross entropy
+loss: binary crossentropy
+activation: sigmoid (output layer)
+
+Katter och hundar -> 0 och 1
+binära klassser-
+
+skala bilderna mellan [0,1] .   är 0 255 vanligtvis
+
+size på bilderna är också en Hyperparameter. 
+
+
+test har inga labels.
+train har labels "cat" och "dog"
+
+-test part is used for competition - thats why it doesnt have labels
+-train part - have labels in their names
+```
+cat.1234.jpg
+dog.1234.jpg
+```
+
+0c and 0d 
+
+-move data into new folder structure.
+-test, train and val are folders
+-pick data from original train and move into the new folders.
+
+-train ->val -> test
+
+
+* OBS ha ej kopior av bilder i train och test
+
+
+
+0e)
+one-hot encoded data skall vara slumpvis. ex [0,0,0,0,1,1,1,1,...] 
+randomiza dessa
+
+
+Approach
+1 få en lista av filnamn
+2 slumpa listan
+3 list comprehension -< läsa in bilderna. 
+
+from pathlib import pathlib
+
+Path().absolute().parent / "data" 
+
+
+
+
+
+
+
+
+
